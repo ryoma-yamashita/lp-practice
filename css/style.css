@@ -25,12 +25,17 @@
 }
 
 .contact_btn {
-  text-decoration: none;
+  background: #0e9efe;
   transition: 0.3s;
 }
 
 .contact_btn:hover {
   color: #333;
+}
+
+.contact_btn a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .toggle_btn {
