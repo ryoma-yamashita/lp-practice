@@ -5,16 +5,136 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script> -->
+  <script src="https://kit.fontawesome.com/5211a9aee4.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
-  <!-- Wrokの部分のテキストはこちらを使ってください -->
-  <!-- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-  dolore magna
-  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-  consequat. Duis
-  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
-  sint -->
+  <div class="wrapper">
+    <!-- <div class="inner"> -->
+      <header class="inner">
+          <!-- <i class="fas fa-archway fa-3x"></i> -->
+          <nav class="contact">
+            <i class="fas fa-archway fa-3x"></i>
+            <button class="contact_btn" type="button">
+              <a href="#">contact</a>
+            </button>
+            <div class="toggle_btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </nav>
+      </header>
+      <main>
+        <!-- メインタイトル、サブタイトル、背景画像のある部分 -->
+        <section class="keyvisual">
+          <img class="keyvis_img" src="img/keyvisual/keyvisual.jpg" alt="PC画像">
+          <div class="text_box">
+            <h1 class="title">WEB PRODUCTION COMPANY</h1>
+            <p class="sub_title">DIRECTION CONTENT MARKETING</p>
+          </div>
+        </section>
+        <!-- 「WORK」のタイトルがある部分 -->
+        <section class="work">
+          <div class="inner work_inner">
+            <div class="pc_box">
+              <img class="pc_img" src="img/pc/pc.png" alt="PC ICON">
+            </div>
+            <!-- Wrokの部分のテキストはこちらを使ってください -->
+            <div class="work_box">
+              <h2 class="section_title work_title">WORK</h2>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis
+                aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+                sint
+              </p>
+            </div>
+          </div>
+        </section>
+        <!-- 「WE ARE SKILLS」のタイトルがある部分 -->
+        <section class="skills">
+          <div class="inner">
+            <h2 class="section_title skills_title">WE ARE SKILLS</h2>
+            <div class="skills_images">
+              <a href="#"><img src="img/skills/skills_1.png" alt="HP ICON"></a>
+              <a href="#"><img src="img/skills/skills_2.png" alt="CAMERA ICON"></a>
+              <a href="#"><img src="img/skills/skills_3.png" alt="CLOUD ICON"></a>
+              <a href="#"><img src="img/skills/skills_4.png" alt="MOVIE ICON"></a>
+              <a href="#"><img src="img/skills/skills_5.png" alt="PHOTO ICON"></a>
+              <a href="#"><img src="img/skills/skills_6.png" alt="HEADPHONE ICON"></a>
+            </div>
+          </div>
+        </section>
+        <!-- 「SELECT PLAN」のタイトルがある部分 -->
+        <section class="plan">
+          <div class="inner plan_inner">
+            <h2 class="section_title plan_title">SELECT PLAN</h2>
+            <table class="plan_table">
+            <tr>
+              <th>PLAN</th>
+              <th>BASIC PLAN</th>
+              <th>STANDERD PLAN</th>
+              <th>ENTERPRISE PLAN</th>
+            </tr>
+            <tr>
+              <th>PRICE</th>
+              <td>&yen;100,000</td>
+              <td>&yen;200,000</td>
+              <td>&yen;300,000</td>
+            </tr>
+            <tr>
+              <th>DELIVERY</th>
+              <td>Minecraft</td>
+              <td>HTML</td>
+              <td>Minecraft.HTML.PSD</td>
+            </tr>
+            <tr>
+              <th>ANALYSIS</th>
+              <td>&#9675;</td>
+              <td>&#9675;</td>
+              <td>&#9675;</td>
+            </tr>
+            <tr>
+              <th>IMPROVEMENT</th>
+              <td>&times;</td>
+              <td>&#9675;</td>
+              <td>&#9675;</td>
+            </tr>
+            <tr>
+              <th>DESIGN</th>
+              <td>&times;</td>
+              <td>&times;</td>
+              <td>&#9675;</td>
+            </tr>
+            </table>
+          </div>
+        </section>
+        <!-- iconが並んでいる部分 -->
+        <div class="sns_wrapper">
+          <div class="inner">
+            <nav class="sns">
+              <a href="#"><i class="fab fa-facebook-f size"></i></a>
+              <a href="#"><i class="fab fa-dribbble size"></i></a>
+              <a href="#"><i class="fab fa-twitter size"></i></a>
+              <a href="#"><i class="fas fa-envelope size"></i></a>
+            </nav>
+          </div>
+        </div>
+      </main>
+      <footer>
+        <div class="inner footer_inner">
+        <p><small>Company</small></p>
+        </div>
+      </footer>
+    <!-- </div> -->
+  </div>
 </body>
 
 </html>
