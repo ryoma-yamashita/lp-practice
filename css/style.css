@@ -24,8 +24,15 @@
   background: #fff;
 }
 
+.contact i {
+  margin: 5px 0;
+}
+
 .contact_btn {
-  background: #0e9efe;
+  color: #fff;
+  font-size: 16px;
+  background: #686cc5;
+  margin: 1em 1em;
   transition: 0.3s;
 }
 
@@ -107,8 +114,8 @@
 
 .title {
   font-size: 65px;
-  font-weight: 700;
-  color: #5ba7eb;
+  font-weight: 400;
+  color: #90a6df;
   margin-top: 400px;
   margin-bottom: 30px;
   white-space: nowrap;
@@ -117,7 +124,7 @@
 
 .sub_title {
   font-size: 40px;
-  font-weight: 700;
+  font-weight: 100;
   color: #fff;
   margin-bottom: 400px;
 }
@@ -145,8 +152,8 @@
 }
 
 .section_title {
-  font-size: 40px;
-  font-weight: 10px;
+  font-size: 60px;
+  letter-spacing: 10px;
 }
 
 .work_title {
@@ -155,7 +162,11 @@
 }
 
 .work {
-  background: #e3f2fd;
+  background: #e2eff8;
+}
+
+.work p {
+  font-size: 16px;
 }
 
 .work_inner {
@@ -253,7 +264,7 @@
 }
 
 .plan {
-  background: #bfc9d0;
+  background: #cfdde6;
 }
 
 .plan_inner {
@@ -269,14 +280,16 @@
   margin: 0 auto;
   table-layout: fixed;
   width: 100%;
+  font-size: 16px;
 }
 
 .plan_table tr {
   background: #fff;
+  padding: 5px 0;
 }
 
 .plan_table tr:nth-child(2n+1) {
-  background: #d9ebfb;
+  background: #deebf7;
 }
 
 .plan_table tr:first-child {
@@ -287,6 +300,7 @@
   border-style: solid;
   border-width: 0 1px;
   border-color: #fff;
+  padding: 5px 0;
 }
 
 @media screen and (max-width:767px) {
@@ -339,9 +353,13 @@
 }
 
 footer {
-  background: #bfc9d0;
+  background: #cdd6dc;
 }
 
 .footer_inner {
   text-align: right;
+}
+
+.footer_inner p {
+  padding: 5px 0;
 }
